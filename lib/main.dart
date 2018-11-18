@@ -103,21 +103,34 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.display1,
             ),
+
+            // These should be placed in one row.
+            OutlineButton(
+              onPressed: _incrementCounter,
+              child: Icon(Icons.add),
+            ),
+            OutlineButton(
+              onPressed: _decrementCounter,
+              child: Icon(Icons.remove),
+            ),
+
           ],
         ),
       ),
-      /*
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ),
-      */
+      
+      /*
       floatingActionButton: FloatingActionButton(
         onPressed: _decrementCounter,
         tooltip: 'Decrement',
         child: Icon(Icons.remove),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+      */
+
     );
   }
 }
