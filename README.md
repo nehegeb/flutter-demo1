@@ -1,8 +1,9 @@
-# demo
+# flutter_demo1
 
-A new Flutter project.
+Learning Flutter by doing the "getting started" demos of the flutter.io website.
 
-## Getting Started
+## Simple counter
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+[This Demo](https://flutter.io/docs/get-started/test-drive)
+creates the basic counter to count up.
+I extended this code to being able to count down as well.
